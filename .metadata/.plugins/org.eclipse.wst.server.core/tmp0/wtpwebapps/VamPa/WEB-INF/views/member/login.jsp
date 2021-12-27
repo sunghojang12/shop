@@ -26,7 +26,7 @@
 		<ul class="navbar__menu">
 			<c:if test="${member == null}">
 				<li class="navbar__menu__item "><a href="/main">Home</a></li>
-				<li class="navbar__menu__item active"><a href="/board/list">게시판</li>
+				
 				<li class="navbar__menu__item"><a href="/member/login">로그인</a></li>
 				<li class="navbar__menu__item"><a href="/member/join">회원가입</a></li>
 			</c:if>

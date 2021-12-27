@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="/resources/css/member/join.css">
 <link rel="stylesheet"
 	href="../resources/css/bootstrap4.4.1/bootstrap.min.css">
+
 <script src="../resources/js/main.js" defer></script>	
 <script src="https://code.jquery.com/jquery-3.4.1.js"
 	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -25,10 +26,10 @@
 		</div>
 		<ul class="navbar__menu">
 			<c:if test="${member == null}">
-				<li class="navbar__menu__item "><a href="/main">Home</a></li>
-				<li class="navbar__menu__item active"><a href="/board/list">게시판</li>
-				<li class="navbar__menu__item"><a href="/member/login">로그인</a></li>
-				<li class="navbar__menu__item"><a href="/member/join">회원가입</a></li>
+				<li class="navbar__menu__item "><a href="/main" style = "color: white;">Home</a></li>
+				<li class="navbar__menu__item active"><a href="/board/list" style = "color: white;">게시판</li>
+				<li class="navbar__menu__item"><a href="/member/login" style = "color: white;">로그인</a></li>
+				<li class="navbar__menu__item"><a href="/member/join" style = "color: white;">회원가입</a></li>
 			</c:if>
 
 			<c:if test="${member != null }">
